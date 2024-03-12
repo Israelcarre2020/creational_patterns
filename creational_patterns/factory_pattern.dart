@@ -3,9 +3,10 @@
 ///
 /// Description:
 ///
-/// In a user management system, we need to have a single instance
-/// of an object that handles user authentication throughout the application.
-///
+
+////// In a restaurant management system, we need to handle different types of orders
+/// (takeaway, dine-in, delivery, etc.). We want a flexible way to create order processing
+/// objects for each type without the client having to know the exact implementation of each one.
 
 void main() {
   OrderFactory factory = TakeAwayOrderFactory();
